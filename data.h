@@ -85,8 +85,13 @@ typedef elementi * giorni;
 //prototipi di funzioni
 
 prenotazione *inizializza_p(char *, prenotazione *);
-calendario *inizializza_c(char *, calendario *);
+giorni inizializza_c(int);
+void carica_c(char *, giorni);
+sala inizializza_s(int);
+void carica_s(sala);
+tavolo inizializza_t(int);
+void carica_t(tavolo);
 prenotazione *inserisci_prenotazione(prenotazione *);
 prenotazione *inserisci_da_file(char *, prenotazione *);
 void disponibili(sale *, calendario *);
-tavoli *inizializza_tavoli(tavoli *);
+

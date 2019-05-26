@@ -61,7 +61,7 @@ int i;
  *
  */
 
-    calendario* carica_c(char *nomefile2, giorni calendario){
+    void carica_c(char *nomefile2, giorni calendario){
 
         FILE *fp;
         int i=0;

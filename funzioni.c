@@ -30,6 +30,17 @@ prenotazione *inizializza_p(char *nomefile, prenotazione *p){
     }
 
 
+/*
+ * Funzione: inizializza_c
+ *
+ * - giorni del mese
+ *
+ *
+ *  restituisce una variabile di tipo giorni che conterrà il calendario mensile
+ *
+ */
+
+
 
 giorni inizializza_c(int giorni){
 
